@@ -1,7 +1,16 @@
-#import <Foundation/Foundation.h>
-#import "HTTPServer.h"
-#import "RouteRequest.h"
-#import "RouteResponse.h"
+
+@import Foundation;
+@import CocoaHTTPServer;
+
+//! Project version number for RoutingHTTPServer.
+FOUNDATION_EXPORT double RoutingHTTPServerVersionNumber;
+
+//! Project version string for RoutingHTTPServer.
+FOUNDATION_EXPORT const unsigned char RoutingHTTPServerVersionString[];
+
+#import <RoutingHTTPServer/HTTPServer.h>
+#import <RoutingHTTPServer/RouteRequest.h>
+#import <RoutingHTTPServer/RouteResponse.h>
 
 typedef void (^RequestHandler)(RouteRequest *request, RouteResponse *response);
 

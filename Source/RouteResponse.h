@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-#import "HTTPResponse.h"
+#import <RoutingHTTPServer/HTTPResponse.h>
 @class HTTPConnection;
 @class HTTPResponseProxy;
 

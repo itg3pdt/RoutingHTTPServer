@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-#import "HTTPConnection.h"
+#import <RoutingHTTPServer/HTTPConnection.h> 
 @class RoutingHTTPServer;
 
 @interface RoutingConnection : HTTPConnection

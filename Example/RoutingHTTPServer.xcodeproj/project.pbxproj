@@ -320,7 +320,7 @@
 			name = RoutingHTTPServerTests;
 			productName = RoutingHTTPServerTests;
 			productReference = C99CECA6147959C300F648A5 /* RoutingHTTPServerTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
