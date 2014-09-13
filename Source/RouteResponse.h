@@ -1,6 +1,7 @@
 
 @import Foundation;
 @import CocoaHTTPServer;
+#import <CocoaHTTPServer/HTTPResponse.h>
 
 @class HTTPConnection;
 @class HTTPResponseProxy;

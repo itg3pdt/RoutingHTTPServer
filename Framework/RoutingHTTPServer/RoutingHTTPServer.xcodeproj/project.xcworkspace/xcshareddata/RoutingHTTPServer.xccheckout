@@ -10,6 +10,10 @@
 	<string>RoutingHTTPServer</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>1C75F1C5CFCB95B3702F6F632FA05ED5244B519E</key>
+		<string>https://github.com/colemancda/CocoaAsyncSocket.git</string>
+		<key>71CFC0DE1DEFC877B0C5B9F98B971EBA2921D608</key>
+		<string>https://github.com/colemancda/CocoaHTTPServer.git</string>
 		<key>9D8E50737BD1955BFF09EC27A96CDD52A2431CCE</key>
 		<string>https://github.com/colemancda/RoutingHTTPServer.git</string>
 	</dict>
@@ -17,6 +21,10 @@
 	<string>Framework/RoutingHTTPServer/RoutingHTTPServer.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>1C75F1C5CFCB95B3702F6F632FA05ED5244B519E</key>
+		<string>../../../../External/CocoaHTTPServer/CocoaAsyncSocket/</string>
+		<key>71CFC0DE1DEFC877B0C5B9F98B971EBA2921D608</key>
+		<string>../../../../External/CocoaHTTPServer/</string>
 		<key>9D8E50737BD1955BFF09EC27A96CDD52A2431CCE</key>
 		<string>../../../..</string>
 	</dict>
@@ -28,6 +36,22 @@
 	<string>9D8E50737BD1955BFF09EC27A96CDD52A2431CCE</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1C75F1C5CFCB95B3702F6F632FA05ED5244B519E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CocoaAsyncSocket</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>71CFC0DE1DEFC877B0C5B9F98B971EBA2921D608</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CocoaHTTPServer</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

@@ -26,7 +26,32 @@
 		6EC7513319C406AB009F0E00 /* RoutingHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC7512219C406AB009F0E00 /* RoutingHTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EC7513419C406AB009F0E00 /* RoutingHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7512319C406AB009F0E00 /* RoutingHTTPServer.m */; };
 		6EC7513519C406AB009F0E00 /* RoutingHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7512319C406AB009F0E00 /* RoutingHTTPServer.m */; };
+		6EF6327319C41D7B006FBD89 /* CocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF6326D19C41D61006FBD89 /* CocoaHTTPServer.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EF6326C19C41D61006FBD89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EF6326419C41D61006FBD89 /* CocoaHTTPServer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EF631E519C4178D006FBD89;
+			remoteInfo = CocoaHTTPServer;
+		};
+		6EF6326E19C41D61006FBD89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EF6326419C41D61006FBD89 /* CocoaHTTPServer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EF631F019C4178D006FBD89;
+			remoteInfo = CocoaHTTPServerTests;
+		};
+		6EF6327119C41D6D006FBD89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EF6326419C41D61006FBD89 /* CocoaHTTPServer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EF631E419C4178D006FBD89;
+			remoteInfo = CocoaHTTPServer;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6EC750FF19C40645009F0E00 /* RoutingHTTPServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RoutingHTTPServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +71,7 @@
 		6EC7512119C406AB009F0E00 /* RoutingConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RoutingConnection.m; path = ../../../Source/RoutingConnection.m; sourceTree = "<group>"; };
 		6EC7512219C406AB009F0E00 /* RoutingHTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoutingHTTPServer.h; path = ../../../Source/RoutingHTTPServer.h; sourceTree = "<group>"; };
 		6EC7512319C406AB009F0E00 /* RoutingHTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RoutingHTTPServer.m; path = ../../../Source/RoutingHTTPServer.m; sourceTree = "<group>"; };
+		6EF6326419C41D61006FBD89 /* CocoaHTTPServer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CocoaHTTPServer.xcodeproj; path = ../../External/CocoaHTTPServer/Framework/CocoaHTTPServer/CocoaHTTPServer.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EF6327319C41D7B006FBD89 /* CocoaHTTPServer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +96,7 @@
 		6EC750F519C40645009F0E00 = {
 			isa = PBXGroup;
 			children = (
+				6EF6326419C41D61006FBD89 /* CocoaHTTPServer.xcodeproj */,
 				6EC7510119C40645009F0E00 /* RoutingHTTPServer */,
 				6EC7510B19C40645009F0E00 /* RoutingHTTPServerTests */,
 				6EC7510019C40645009F0E00 /* Products */,
@@ -129,6 +157,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6EF6326519C41D61006FBD89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EF6326D19C41D61006FBD89 /* CocoaHTTPServer.framework */,
+				6EF6326F19C41D61006FBD89 /* CocoaHTTPServerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -160,6 +197,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				6EF6327219C41D6D006FBD89 /* PBXTargetDependency */,
 			);
 			name = RoutingHTTPServer;
 			productName = RoutingHTTPServer;
@@ -210,6 +248,12 @@
 			mainGroup = 6EC750F519C40645009F0E00;
 			productRefGroup = 6EC7510019C40645009F0E00 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6EF6326519C41D61006FBD89 /* Products */;
+					ProjectRef = 6EF6326419C41D61006FBD89 /* CocoaHTTPServer.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6EC750FE19C40645009F0E00 /* RoutingHTTPServer */,
@@ -217,6 +261,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6EF6326D19C41D61006FBD89 /* CocoaHTTPServer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CocoaHTTPServer.framework;
+			remoteRef = 6EF6326C19C41D61006FBD89 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EF6326F19C41D61006FBD89 /* CocoaHTTPServerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CocoaHTTPServerTests.xctest;
+			remoteRef = 6EF6326E19C41D61006FBD89 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6EC750FD19C40645009F0E00 /* Resources */ = {
@@ -264,6 +325,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EF6327219C41D6D006FBD89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaHTTPServer;
+			targetProxy = 6EF6327119C41D6D006FBD89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		6EC7511019C40645009F0E00 /* Debug */ = {
@@ -433,6 +502,7 @@
 				6EC7511419C40645009F0E00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EC7511519C40645009F0E00 /* Build configuration list for PBXNativeTarget "RoutingHTTPServerTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +511,7 @@
 				6EC7511719C40645009F0E00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

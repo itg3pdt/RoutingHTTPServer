@@ -8,7 +8,7 @@ FOUNDATION_EXPORT double RoutingHTTPServerVersionNumber;
 //! Project version string for RoutingHTTPServer.
 FOUNDATION_EXPORT const unsigned char RoutingHTTPServerVersionString[];
 
-#import <RoutingHTTPServer/HTTPServer.h>
+#import <CocoaHTTPServer/HTTPServer.h>
 #import <RoutingHTTPServer/RouteRequest.h>
 #import <RoutingHTTPServer/RouteResponse.h>
 

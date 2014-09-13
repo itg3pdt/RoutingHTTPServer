@@ -1,6 +1,6 @@
 #import "RoutingConnection.h"
 #import "RoutingHTTPServer.h"
-#import "HTTPMessage.h"
+#import <CocoaHTTPServer/HTTPMessage.h> 
 #import "HTTPResponseProxy.h"
 
 @implementation RoutingConnection {
