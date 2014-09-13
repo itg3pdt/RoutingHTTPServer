@@ -3,4 +3,7 @@
 @class RoutingHTTPServer;
 
 @interface RoutingConnection : HTTPConnection
+
+-(HTTPConfig *)config;
+
 @end

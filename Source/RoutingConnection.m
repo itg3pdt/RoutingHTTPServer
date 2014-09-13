@@ -134,4 +134,9 @@
 	return shouldDie;
 }
 
+-(HTTPConfig *)config
+{
+    return config;
+}
+
 @end
