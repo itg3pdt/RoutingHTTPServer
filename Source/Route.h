@@ -1,5 +1,7 @@
 #import <Foundation/Foundation.h>
-#import <RoutingHTTPServer/RoutingHTTPServer.h> 
+
+@class RouteResponse, RouteRequest;
+typedef void (^RequestHandler)(RouteRequest *request, RouteResponse *response);
 
 @interface Route : NSObject
 

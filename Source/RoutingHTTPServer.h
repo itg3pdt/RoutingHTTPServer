@@ -13,8 +13,7 @@ FOUNDATION_EXPORT const unsigned char RoutingHTTPServerVersionString[];
 #import <RoutingHTTPServer/RouteResponse.h>
 #import <RoutingHTTPServer/RoutingConnection.h>
 #import <RoutingHTTPServer/HTTPResponseProxy.h>
-
-typedef void (^RequestHandler)(RouteRequest *request, RouteResponse *response);
+#import <RoutingHTTPServer/Route.h>
 
 @interface RoutingHTTPServer : HTTPServer
 

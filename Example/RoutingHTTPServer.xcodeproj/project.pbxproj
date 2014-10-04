@@ -17,27 +17,6 @@
 		C99CECA9147959C300F648A5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99CEC89147959C200F648A5 /* Cocoa.framework */; };
 		C99CECB1147959C300F648A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C99CECAF147959C300F648A5 /* InfoPlist.strings */; };
 		C99CECB4147959C300F648A5 /* RoutingHTTPServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C99CECB3147959C300F648A5 /* RoutingHTTPServerTests.m */; };
-		C99CECCF14795B3200F648A5 /* HTTPResponseProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C99CECC414795B3200F648A5 /* HTTPResponseProxy.m */; };
-		C99CECD014795B3200F648A5 /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = C99CECC614795B3200F648A5 /* Route.m */; };
-		C99CECD114795B3200F648A5 /* RouteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C99CECC814795B3200F648A5 /* RouteRequest.m */; };
-		C99CECD214795B3200F648A5 /* RouteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C99CECCA14795B3200F648A5 /* RouteResponse.m */; };
-		C99CECD314795B3200F648A5 /* RoutingConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C99CECCC14795B3200F648A5 /* RoutingConnection.m */; };
-		C99CECD414795B3200F648A5 /* RoutingHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = C99CECCE14795B3200F648A5 /* RoutingHTTPServer.m */; };
-		C99CECE214795B5C00F648A5 /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C99CECD714795B5C00F648A5 /* HTTPAuthenticationRequest.m */; };
-		C99CECE314795B5C00F648A5 /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C99CECD914795B5C00F648A5 /* HTTPConnection.m */; };
-		C99CECE414795B5C00F648A5 /* HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C99CECDC14795B5C00F648A5 /* HTTPMessage.m */; };
-		C99CECE514795B5C00F648A5 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = C99CECDF14795B5C00F648A5 /* HTTPServer.m */; };
-		C99CECE614795B5C00F648A5 /* WebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C99CECE114795B5C00F648A5 /* WebSocket.m */; };
-		C99CECED14795B6400F648A5 /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = C99CECE814795B6400F648A5 /* DDData.m */; };
-		C99CECEE14795B6400F648A5 /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = C99CECEA14795B6400F648A5 /* DDNumber.m */; };
-		C99CECEF14795B6400F648A5 /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = C99CECEC14795B6400F648A5 /* DDRange.m */; };
-		C99CECFA14795B6C00F648A5 /* HTTPAsyncFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C99CECF114795B6C00F648A5 /* HTTPAsyncFileResponse.m */; };
-		C99CECFB14795B6C00F648A5 /* HTTPDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C99CECF314795B6C00F648A5 /* HTTPDataResponse.m */; };
-		C99CECFC14795B6C00F648A5 /* HTTPDynamicFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C99CECF514795B6C00F648A5 /* HTTPDynamicFileResponse.m */; };
-		C99CECFD14795B6C00F648A5 /* HTTPFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C99CECF714795B6C00F648A5 /* HTTPFileResponse.m */; };
-		C99CECFE14795B6C00F648A5 /* HTTPRedirectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C99CECF914795B6C00F648A5 /* HTTPRedirectResponse.m */; };
-		C99CED0114795B7800F648A5 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C99CED0014795B7800F648A5 /* GCDAsyncSocket.m */; };
-		C99CED0414795B8000F648A5 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = C99CED0314795B8000F648A5 /* DDLog.m */; };
 		C99CED0914795C2700F648A5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99CED0814795C2700F648A5 /* Security.framework */; };
 /* End PBXBuildFile section */
 
@@ -392,27 +371,6 @@
 			files = (
 				C99CEC96147959C200F648A5 /* main.m in Sources */,
 				C99CEC9D147959C200F648A5 /* AppDelegate.m in Sources */,
-				C99CECCF14795B3200F648A5 /* HTTPResponseProxy.m in Sources */,
-				C99CECD014795B3200F648A5 /* Route.m in Sources */,
-				C99CECD114795B3200F648A5 /* RouteRequest.m in Sources */,
-				C99CECD214795B3200F648A5 /* RouteResponse.m in Sources */,
-				C99CECD314795B3200F648A5 /* RoutingConnection.m in Sources */,
-				C99CECD414795B3200F648A5 /* RoutingHTTPServer.m in Sources */,
-				C99CECE214795B5C00F648A5 /* HTTPAuthenticationRequest.m in Sources */,
-				C99CECE314795B5C00F648A5 /* HTTPConnection.m in Sources */,
-				C99CECE414795B5C00F648A5 /* HTTPMessage.m in Sources */,
-				C99CECE514795B5C00F648A5 /* HTTPServer.m in Sources */,
-				C99CECE614795B5C00F648A5 /* WebSocket.m in Sources */,
-				C99CECED14795B6400F648A5 /* DDData.m in Sources */,
-				C99CECEE14795B6400F648A5 /* DDNumber.m in Sources */,
-				C99CECEF14795B6400F648A5 /* DDRange.m in Sources */,
-				C99CECFA14795B6C00F648A5 /* HTTPAsyncFileResponse.m in Sources */,
-				C99CECFB14795B6C00F648A5 /* HTTPDataResponse.m in Sources */,
-				C99CECFC14795B6C00F648A5 /* HTTPDynamicFileResponse.m in Sources */,
-				C99CECFD14795B6C00F648A5 /* HTTPFileResponse.m in Sources */,
-				C99CECFE14795B6C00F648A5 /* HTTPRedirectResponse.m in Sources */,
-				C99CED0114795B7800F648A5 /* GCDAsyncSocket.m in Sources */,
-				C99CED0414795B8000F648A5 /* DDLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +433,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
@@ -510,6 +469,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;

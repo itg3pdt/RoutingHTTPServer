@@ -1,7 +1,5 @@
 #import "RoutingHTTPServerTests.h"
-#import "RoutingHTTPServer.h"
-#import "HTTPMessage.h"
-#import "HTTPDataResponse.h"
+@import RoutingHTTPServer;
 
 @interface RoutingHTTPServerTests ()
 

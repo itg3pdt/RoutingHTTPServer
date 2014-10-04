@@ -1,5 +1,5 @@
 #import "AppDelegate.h"
-#import "RoutingHTTPServer.h"
+@import RoutingHTTPServer;
 
 @interface AppDelegate ()
 
