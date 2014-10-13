@@ -2,3 +2,5 @@ Example/RoutingHTTPServer.xcodeproj/*
 !project.pbxproj
 
 *.xcuserstate
+
+Framework/RoutingHTTPServer/RoutingHTTPServer.xcodeproj/xcuserdata/Coleman.xcuserdatad/xcschemes/xcschememanagement.plist
