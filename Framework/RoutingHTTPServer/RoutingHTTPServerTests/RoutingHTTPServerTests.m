@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Alloysoft. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 #import <XCTest/XCTest.h>
 
 @interface RoutingHTTPServerTests : XCTestCase
