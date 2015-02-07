@@ -1,7 +1,7 @@
 language: objective-c
 osx_image: xcode61
-before_install: true
+before_install:
+    - git submodule update --init --recursive
 script:
-    - cd Framework
-    - cd RoutingHTTPServer
-    - xcodebuild CODE_SIGNING_REQUIRED=NO -scheme 'RoutingHTTPServer' test
+    - xcodebuild -project Framework/RoutingHTTPServer/RoutingHTTPServer.xcodeproj -scheme 'RoutingHTTPServer' -sdk macosx -arch x86_64 test CODE_SIGNING_REQUIRED=NO
+    - xcodebuild -project Framework/RoutingHTTPServer/RoutingHTTPServer.xcodeproj -scheme 'RoutingHTTPServer' -sdk iphonesimulator -arch i386 test CODE_SIGNING_REQUIRED=NO
