@@ -139,4 +139,14 @@
     return config;
 }
 
+-(GCDAsyncSocket *)socket
+{
+    return asyncSocket;
+}
+
+-(HTTPMessage *)request
+{
+    return request;
+}
+
 @end
