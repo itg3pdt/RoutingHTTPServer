@@ -4,3 +4,5 @@ Example/RoutingHTTPServer.xcodeproj/*
 *.xcuserstate
 
 Framework/RoutingHTTPServer/RoutingHTTPServer.xcodeproj/xcuserdata/Coleman.xcuserdatad/xcschemes/xcschememanagement.plist
+
+Carthage/*
