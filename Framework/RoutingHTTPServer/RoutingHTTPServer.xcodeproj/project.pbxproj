@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E2C0B511B2A94360008602A /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2C0B501B2A94360008602A /* CocoaLumberjack.framework */; };
+		6E2C0B541B2A944C0008602A /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2C0B521B2A944C0008602A /* CocoaAsyncSocket.framework */; };
+		6E2C0B551B2A944C0008602A /* CocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2C0B531B2A944C0008602A /* CocoaHTTPServer.framework */; };
 		6EC7510F19C40645009F0E00 /* RoutingHTTPServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7510E19C40645009F0E00 /* RoutingHTTPServerTests.m */; };
 		6EC7512419C406AB009F0E00 /* HTTPResponseProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC7511819C406AB009F0E00 /* HTTPResponseProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EC7512519C406AB009F0E00 /* HTTPResponseProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7511919C406AB009F0E00 /* HTTPResponseProxy.m */; };
@@ -29,6 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E2C0B501B2A94360008602A /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = ../../Carthage/Build/Mac/CocoaLumberjack.framework; sourceTree = "<group>"; };
+		6E2C0B521B2A944C0008602A /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = ../../Carthage/Build/Mac/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		6E2C0B531B2A944C0008602A /* CocoaHTTPServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaHTTPServer.framework; path = ../../Carthage/Build/Mac/CocoaHTTPServer.framework; sourceTree = "<group>"; };
 		6EC750FF19C40645009F0E00 /* RoutingHTTPServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RoutingHTTPServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC7510319C40645009F0E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EC7510A19C40645009F0E00 /* RoutingHTTPServerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoutingHTTPServerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +59,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E2C0B551B2A944C0008602A /* CocoaHTTPServer.framework in Frameworks */,
+				6E2C0B541B2A944C0008602A /* CocoaAsyncSocket.framework in Frameworks */,
+				6E2C0B511B2A94360008602A /* CocoaLumberjack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +78,9 @@
 		6E5D513D1B29ED8B006593B3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6E2C0B521B2A944C0008602A /* CocoaAsyncSocket.framework */,
+				6E2C0B531B2A944C0008602A /* CocoaHTTPServer.framework */,
+				6E2C0B501B2A94360008602A /* CocoaLumberjack.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -369,9 +381,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Coleman/Developer/MyProjects/RoutingHTTPServer/Carthage/Build/Mac,
+				);
 				INFOPLIST_FILE = RoutingHTTPServer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
@@ -386,9 +403,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Coleman/Developer/MyProjects/RoutingHTTPServer/Carthage/Build/Mac,
+				);
 				INFOPLIST_FILE = RoutingHTTPServer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";

@@ -1,3 +1,3 @@
 github "ColemanCDA/CocoaLumberjack" "05cff2065cc9f56bc3aeca4ccbba3b2504fba5bd"
-github "ColemanCDA/CocoaAsyncSocket" "8fef08d2b8319f091709e270412971721f143282"
-github "ColemanCDA/CocoaHTTPServer" "c23f4e215ec6ec80e84a79649f55c221a06144fe"
+github "ColemanCDA/CocoaAsyncSocket" "332ba0eecca1c6adfd48dd14a98dcb6bddc7e557"
+github "ColemanCDA/CocoaHTTPServer" "1f41483c48c92ffd66e5928a99cb39ead10b70f4"
