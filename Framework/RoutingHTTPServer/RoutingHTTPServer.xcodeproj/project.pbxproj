@@ -7,9 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E5D51471B29EE58006593B3 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5D51441B29EE58006593B3 /* CocoaAsyncSocket.framework */; };
-		6E5D51481B29EE58006593B3 /* CocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5D51451B29EE58006593B3 /* CocoaHTTPServer.framework */; };
-		6E5D51491B29EE58006593B3 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5D51461B29EE58006593B3 /* CocoaLumberjack.framework */; };
+		6E95D1491B2B0E3A000DD4DA /* RouteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7511F19C406AB009F0E00 /* RouteResponse.m */; };
+		6E95D14A1B2B0E3A000DD4DA /* RoutingConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7512119C406AB009F0E00 /* RoutingConnection.m */; };
+		6E95D14B1B2B0E3A000DD4DA /* HTTPResponseProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7511919C406AB009F0E00 /* HTTPResponseProxy.m */; };
+		6E95D14C1B2B0E3A000DD4DA /* RouteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7511D19C406AB009F0E00 /* RouteRequest.m */; };
+		6E95D14D1B2B0E3A000DD4DA /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7511B19C406AB009F0E00 /* Route.m */; };
+		6E95D14E1B2B0E3A000DD4DA /* RoutingHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7512319C406AB009F0E00 /* RoutingHTTPServer.m */; };
+		6E95D1511B2B0E3A000DD4DA /* RouteRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC7511C19C406AB009F0E00 /* RouteRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E95D1521B2B0E3A000DD4DA /* Route.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC7511A19C406AB009F0E00 /* Route.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E95D1531B2B0E3A000DD4DA /* HTTPResponseProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC7511819C406AB009F0E00 /* HTTPResponseProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E95D1541B2B0E3A000DD4DA /* RoutingHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC7512219C406AB009F0E00 /* RoutingHTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E95D1551B2B0E3A000DD4DA /* RouteResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC7511E19C406AB009F0E00 /* RouteResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E95D1561B2B0E3A000DD4DA /* RoutingConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC7512019C406AB009F0E00 /* RoutingConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E95D1611B2B1006000DD4DA /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E95D15E1B2B1006000DD4DA /* CocoaAsyncSocket.framework */; };
+		6E95D1621B2B1006000DD4DA /* CocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E95D15F1B2B1006000DD4DA /* CocoaHTTPServer.framework */; };
+		6E95D1631B2B1006000DD4DA /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E95D1601B2B1006000DD4DA /* CocoaLumberjack.framework */; };
+		6E95D1681B2B100E000DD4DA /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E95D1651B2B100E000DD4DA /* CocoaAsyncSocket.framework */; };
+		6E95D1691B2B100E000DD4DA /* CocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E95D1661B2B100E000DD4DA /* CocoaHTTPServer.framework */; };
+		6E95D16A1B2B100E000DD4DA /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E95D1671B2B100E000DD4DA /* CocoaLumberjack.framework */; };
 		6EC7510F19C40645009F0E00 /* RoutingHTTPServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7510E19C40645009F0E00 /* RoutingHTTPServerTests.m */; };
 		6EC7512419C406AB009F0E00 /* HTTPResponseProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC7511819C406AB009F0E00 /* HTTPResponseProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EC7512519C406AB009F0E00 /* HTTPResponseProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7511919C406AB009F0E00 /* HTTPResponseProxy.m */; };
@@ -32,9 +47,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6E5D51441B29EE58006593B3 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = ../../Carthage/Build/Mac/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
-		6E5D51451B29EE58006593B3 /* CocoaHTTPServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaHTTPServer.framework; path = ../../Carthage/Build/Mac/CocoaHTTPServer.framework; sourceTree = "<group>"; };
-		6E5D51461B29EE58006593B3 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = ../../Carthage/Build/Mac/CocoaLumberjack.framework; sourceTree = "<group>"; };
+		6E95D15B1B2B0E3A000DD4DA /* RoutingHTTPServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RoutingHTTPServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E95D15E1B2B1006000DD4DA /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		6E95D15F1B2B1006000DD4DA /* CocoaHTTPServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaHTTPServer.framework; sourceTree = "<group>"; };
+		6E95D1601B2B1006000DD4DA /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = "<group>"; };
+		6E95D1651B2B100E000DD4DA /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		6E95D1661B2B100E000DD4DA /* CocoaHTTPServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaHTTPServer.framework; sourceTree = "<group>"; };
+		6E95D1671B2B100E000DD4DA /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = "<group>"; };
 		6EC750FF19C40645009F0E00 /* RoutingHTTPServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RoutingHTTPServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC7510319C40645009F0E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EC7510A19C40645009F0E00 /* RoutingHTTPServerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoutingHTTPServerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,13 +74,23 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6E95D14F1B2B0E3A000DD4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E95D1681B2B100E000DD4DA /* CocoaAsyncSocket.framework in Frameworks */,
+				6E95D16A1B2B100E000DD4DA /* CocoaLumberjack.framework in Frameworks */,
+				6E95D1691B2B100E000DD4DA /* CocoaHTTPServer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EC750FB19C40645009F0E00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E5D51471B29EE58006593B3 /* CocoaAsyncSocket.framework in Frameworks */,
-				6E5D51491B29EE58006593B3 /* CocoaLumberjack.framework in Frameworks */,
-				6E5D51481B29EE58006593B3 /* CocoaHTTPServer.framework in Frameworks */,
+				6E95D1611B2B1006000DD4DA /* CocoaAsyncSocket.framework in Frameworks */,
+				6E95D1631B2B1006000DD4DA /* CocoaLumberjack.framework in Frameworks */,
+				6E95D1621B2B1006000DD4DA /* CocoaHTTPServer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,11 +107,32 @@
 		6E5D513D1B29ED8B006593B3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6E5D51441B29EE58006593B3 /* CocoaAsyncSocket.framework */,
-				6E5D51451B29EE58006593B3 /* CocoaHTTPServer.framework */,
-				6E5D51461B29EE58006593B3 /* CocoaLumberjack.framework */,
+				6E95D15D1B2B1006000DD4DA /* Mac */,
+				6E95D1641B2B100E000DD4DA /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E95D15D1B2B1006000DD4DA /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				6E95D15E1B2B1006000DD4DA /* CocoaAsyncSocket.framework */,
+				6E95D15F1B2B1006000DD4DA /* CocoaHTTPServer.framework */,
+				6E95D1601B2B1006000DD4DA /* CocoaLumberjack.framework */,
+			);
+			name = Mac;
+			path = ../../Carthage/Build/Mac;
+			sourceTree = "<group>";
+		};
+		6E95D1641B2B100E000DD4DA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E95D1651B2B100E000DD4DA /* CocoaAsyncSocket.framework */,
+				6E95D1661B2B100E000DD4DA /* CocoaHTTPServer.framework */,
+				6E95D1671B2B100E000DD4DA /* CocoaLumberjack.framework */,
+			);
+			name = iOS;
+			path = ../../Carthage/Build/iOS;
 			sourceTree = "<group>";
 		};
 		6EC750F519C40645009F0E00 = {
@@ -100,6 +150,7 @@
 			children = (
 				6EC750FF19C40645009F0E00 /* RoutingHTTPServer.framework */,
 				6EC7510A19C40645009F0E00 /* RoutingHTTPServerTests.xctest */,
+				6E95D15B1B2B0E3A000DD4DA /* RoutingHTTPServer.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +203,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		6E95D1501B2B0E3A000DD4DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E95D1511B2B0E3A000DD4DA /* RouteRequest.h in Headers */,
+				6E95D1521B2B0E3A000DD4DA /* Route.h in Headers */,
+				6E95D1531B2B0E3A000DD4DA /* HTTPResponseProxy.h in Headers */,
+				6E95D1541B2B0E3A000DD4DA /* RoutingHTTPServer.h in Headers */,
+				6E95D1551B2B0E3A000DD4DA /* RouteResponse.h in Headers */,
+				6E95D1561B2B0E3A000DD4DA /* RoutingConnection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EC750FC19C40645009F0E00 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -168,9 +232,27 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6EC750FE19C40645009F0E00 /* RoutingHTTPServer */ = {
+		6E95D1471B2B0E3A000DD4DA /* RoutingHTTPServer iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EC7511219C40645009F0E00 /* Build configuration list for PBXNativeTarget "RoutingHTTPServer" */;
+			buildConfigurationList = 6E95D1581B2B0E3A000DD4DA /* Build configuration list for PBXNativeTarget "RoutingHTTPServer iOS" */;
+			buildPhases = (
+				6E95D1481B2B0E3A000DD4DA /* Sources */,
+				6E95D14F1B2B0E3A000DD4DA /* Frameworks */,
+				6E95D1501B2B0E3A000DD4DA /* Headers */,
+				6E95D1571B2B0E3A000DD4DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RoutingHTTPServer iOS";
+			productName = RoutingHTTPServer;
+			productReference = 6E95D15B1B2B0E3A000DD4DA /* RoutingHTTPServer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6EC750FE19C40645009F0E00 /* RoutingHTTPServer OS X */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EC7511219C40645009F0E00 /* Build configuration list for PBXNativeTarget "RoutingHTTPServer OS X" */;
 			buildPhases = (
 				6EC750FA19C40645009F0E00 /* Sources */,
 				6EC750FB19C40645009F0E00 /* Frameworks */,
@@ -181,7 +263,7 @@
 			);
 			dependencies = (
 			);
-			name = RoutingHTTPServer;
+			name = "RoutingHTTPServer OS X";
 			productName = RoutingHTTPServer;
 			productReference = 6EC750FF19C40645009F0E00 /* RoutingHTTPServer.framework */;
 			productType = "com.apple.product-type.framework";
@@ -209,7 +291,7 @@
 		6EC750F619C40645009F0E00 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = Alloysoft;
 				TargetAttributes = {
 					6EC750FE19C40645009F0E00 = {
@@ -232,13 +314,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6EC750FE19C40645009F0E00 /* RoutingHTTPServer */,
+				6EC750FE19C40645009F0E00 /* RoutingHTTPServer OS X */,
+				6E95D1471B2B0E3A000DD4DA /* RoutingHTTPServer iOS */,
 				6EC7510919C40645009F0E00 /* RoutingHTTPServerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6E95D1571B2B0E3A000DD4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EC750FD19C40645009F0E00 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,6 +346,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6E95D1481B2B0E3A000DD4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E95D1491B2B0E3A000DD4DA /* RouteResponse.m in Sources */,
+				6E95D14A1B2B0E3A000DD4DA /* RoutingConnection.m in Sources */,
+				6E95D14B1B2B0E3A000DD4DA /* HTTPResponseProxy.m in Sources */,
+				6E95D14C1B2B0E3A000DD4DA /* RouteRequest.m in Sources */,
+				6E95D14D1B2B0E3A000DD4DA /* Route.m in Sources */,
+				6E95D14E1B2B0E3A000DD4DA /* RoutingHTTPServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EC750FA19C40645009F0E00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -286,6 +389,52 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		6E95D1591B2B0E3A000DD4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					$SRCROOT/../../Carthage/Build/iOS,
+					/Users/Coleman/Developer/MyProjects/RoutingHTTPServer/Carthage/Build/iOS,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/RoutingHTTPServer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = RoutingHTTPServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
+			};
+			name = Debug;
+		};
+		6E95D15A1B2B0E3A000DD4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					$SRCROOT/../../Carthage/Build/iOS,
+					/Users/Coleman/Developer/MyProjects/RoutingHTTPServer/Carthage/Build/iOS,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/RoutingHTTPServer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = RoutingHTTPServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
+			};
+			name = Release;
+		};
 		6EC7511019C40645009F0E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -325,9 +474,9 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos";
+				SUPPORTED_PLATFORMS = macosx;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				VALID_ARCHS = "i386 x86_64";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -365,10 +514,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos";
+				SUPPORTED_PLATFORMS = macosx;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				VALID_ARCHS = "i386 x86_64";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -377,48 +526,53 @@
 		6EC7511319C40645009F0E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					$SRCROOT/../../Carthage/Build/Mac,
 					/Users/Coleman/Developer/MyProjects/RoutingHTTPServer/Carthage/Build/Mac,
 				);
 				INFOPLIST_FILE = RoutingHTTPServer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RoutingHTTPServer;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
-				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Debug;
 		};
 		6EC7511419C40645009F0E00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					$SRCROOT/../../Carthage/Build/Mac,
 					/Users/Coleman/Developer/MyProjects/RoutingHTTPServer/Carthage/Build/Mac,
 				);
 				INFOPLIST_FILE = RoutingHTTPServer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RoutingHTTPServer;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
-				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Release;
 		};
 		6EC7511619C40645009F0E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -436,6 +590,7 @@
 		6EC7511719C40645009F0E00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -449,6 +604,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6E95D1581B2B0E3A000DD4DA /* Build configuration list for PBXNativeTarget "RoutingHTTPServer iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E95D1591B2B0E3A000DD4DA /* Debug */,
+				6E95D15A1B2B0E3A000DD4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6EC750F919C40645009F0E00 /* Build configuration list for PBXProject "RoutingHTTPServer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -458,7 +622,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6EC7511219C40645009F0E00 /* Build configuration list for PBXNativeTarget "RoutingHTTPServer" */ = {
+		6EC7511219C40645009F0E00 /* Build configuration list for PBXNativeTarget "RoutingHTTPServer OS X" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6EC7511319C40645009F0E00 /* Debug */,
