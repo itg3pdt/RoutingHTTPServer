@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6E9678761B32024B003AFBBA"
-               BuildableName = "RoutingHTTPServer copy.framework"
+               BuildableName = "RoutingHTTPServer.framework"
                BlueprintName = "RoutingHTTPServer iOS"
                ReferencedContainer = "container:RoutingHTTPServer.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6E96788C1B32026C003AFBBA"
-               BuildableName = "RoutingHTTPServerTests copy.xctest"
+               BuildableName = "RoutingHTTPServerTests iOS.xctest"
                BlueprintName = "RoutingHTTPServerTests iOS"
                ReferencedContainer = "container:RoutingHTTPServer.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6E9678761B32024B003AFBBA"
-            BuildableName = "RoutingHTTPServer copy.framework"
+            BuildableName = "RoutingHTTPServer.framework"
             BlueprintName = "RoutingHTTPServer iOS"
             ReferencedContainer = "container:RoutingHTTPServer.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6E9678761B32024B003AFBBA"
-            BuildableName = "RoutingHTTPServer copy.framework"
+            BuildableName = "RoutingHTTPServer.framework"
             BlueprintName = "RoutingHTTPServer iOS"
             ReferencedContainer = "container:RoutingHTTPServer.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6E9678761B32024B003AFBBA"
-            BuildableName = "RoutingHTTPServer copy.framework"
+            BuildableName = "RoutingHTTPServer.framework"
             BlueprintName = "RoutingHTTPServer iOS"
             ReferencedContainer = "container:RoutingHTTPServer.xcodeproj">
          </BuildableReference>

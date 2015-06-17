@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6EC750FE19C40645009F0E00"
-               BuildableName = "RoutingHTTPServer OS X.framework"
+               BuildableName = "RoutingHTTPServer.framework"
                BlueprintName = "RoutingHTTPServer OS X"
                ReferencedContainer = "container:RoutingHTTPServer.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6EC750FE19C40645009F0E00"
-            BuildableName = "RoutingHTTPServer OS X.framework"
+            BuildableName = "RoutingHTTPServer.framework"
             BlueprintName = "RoutingHTTPServer OS X"
             ReferencedContainer = "container:RoutingHTTPServer.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6EC750FE19C40645009F0E00"
-            BuildableName = "RoutingHTTPServer OS X.framework"
+            BuildableName = "RoutingHTTPServer.framework"
             BlueprintName = "RoutingHTTPServer OS X"
             ReferencedContainer = "container:RoutingHTTPServer.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6EC750FE19C40645009F0E00"
-            BuildableName = "RoutingHTTPServer OS X.framework"
+            BuildableName = "RoutingHTTPServer.framework"
             BlueprintName = "RoutingHTTPServer OS X"
             ReferencedContainer = "container:RoutingHTTPServer.xcodeproj">
          </BuildableReference>
