@@ -22,9 +22,9 @@
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1C75F1C5CFCB95B3702F6F632FA05ED5244B519E</key>
-		<string>../../../..External/CocoaHTTPServer/CocoaAsyncSocket/</string>
+		<string>../../../..External/CocoaHTTPServer/CocoaAsyncSocket</string>
 		<key>71CFC0DE1DEFC877B0C5B9F98B971EBA2921D608</key>
-		<string>../../../..External/CocoaHTTPServer/</string>
+		<string>../../../..External/CocoaHTTPServer</string>
 		<key>9D8E50737BD1955BFF09EC27A96CDD52A2431CCE</key>
 		<string>../../../..</string>
 	</dict>
