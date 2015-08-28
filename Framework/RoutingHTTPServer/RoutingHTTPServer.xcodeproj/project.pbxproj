@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FF885581B8FEC64002FC289 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9678711B32022F003AFBBA /* CocoaAsyncSocket.framework */; };
+		5FF885591B8FEC67002FC289 /* CocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9678721B32022F003AFBBA /* CocoaHTTPServer.framework */; };
+		5FF8855A1B8FEC8E002FC289 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9678741B32022F003AFBBA /* CocoaAsyncSocket.framework */; };
+		5FF8855B1B8FEC91002FC289 /* CocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9678751B32022F003AFBBA /* CocoaHTTPServer.framework */; };
 		6E9678781B32024B003AFBBA /* RouteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7511F19C406AB009F0E00 /* RouteResponse.m */; };
 		6E9678791B32024B003AFBBA /* RoutingConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7512119C406AB009F0E00 /* RoutingConnection.m */; };
 		6E96787A1B32024B003AFBBA /* HTTPResponseProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7511919C406AB009F0E00 /* HTTPResponseProxy.m */; };
@@ -126,6 +130,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FF885581B8FEC64002FC289 /* CocoaAsyncSocket.framework in Frameworks */,
+				5FF885591B8FEC67002FC289 /* CocoaHTTPServer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +146,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FF8855A1B8FEC8E002FC289 /* CocoaAsyncSocket.framework in Frameworks */,
+				5FF8855B1B8FEC91002FC289 /* CocoaHTTPServer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,7 +509,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = $SRCROOT/../../Carthage/Build/iOS;
+				FRAMEWORK_SEARCH_PATHS = (
+					$SRCROOT/../../Carthage/Build/iOS,
+					/Users/leehoward/Documents/projects/me/RoutingHTTPServer/Carthage/Build/iOS,
+				);
 				INFOPLIST_FILE = RoutingHTTPServer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -521,7 +532,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = $SRCROOT/../../Carthage/Build/iOS;
+				FRAMEWORK_SEARCH_PATHS = (
+					$SRCROOT/../../Carthage/Build/iOS,
+					/Users/leehoward/Documents/projects/me/RoutingHTTPServer/Carthage/Build/iOS,
+				);
 				INFOPLIST_FILE = RoutingHTTPServer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -669,7 +683,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = $SRCROOT/../../Carthage/Build/Mac;
+				FRAMEWORK_SEARCH_PATHS = (
+					$SRCROOT/../../Carthage/Build/Mac,
+					/Users/leehoward/Documents/projects/me/RoutingHTTPServer/Carthage/Build/Mac,
+				);
 				INFOPLIST_FILE = RoutingHTTPServer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -686,7 +703,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = $SRCROOT/../../Carthage/Build/Mac;
+				FRAMEWORK_SEARCH_PATHS = (
+					$SRCROOT/../../Carthage/Build/Mac,
+					/Users/leehoward/Documents/projects/me/RoutingHTTPServer/Carthage/Build/Mac,
+				);
 				INFOPLIST_FILE = RoutingHTTPServer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
