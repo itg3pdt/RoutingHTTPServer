@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0610"
+   LastUpgradeVersion = "0630"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6EC750FE19C40645009F0E00"
                BuildableName = "RoutingHTTPServer.framework"
-               BlueprintName = "RoutingHTTPServer"
+               BlueprintName = "RoutingHTTPServer OS X"
                ReferencedContainer = "container:RoutingHTTPServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6EC7510919C40645009F0E00"
-               BuildableName = "RoutingHTTPServerTests.xctest"
-               BlueprintName = "RoutingHTTPServerTests"
+               BuildableName = "RoutingHTTPServerTests OS X.xctest"
+               BlueprintName = "RoutingHTTPServerTests OS X"
                ReferencedContainer = "container:RoutingHTTPServer.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -44,7 +44,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6EC750FE19C40645009F0E00"
             BuildableName = "RoutingHTTPServer.framework"
-            BlueprintName = "RoutingHTTPServer"
+            BlueprintName = "RoutingHTTPServer OS X"
             ReferencedContainer = "container:RoutingHTTPServer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,7 +63,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6EC750FE19C40645009F0E00"
             BuildableName = "RoutingHTTPServer.framework"
-            BlueprintName = "RoutingHTTPServer"
+            BlueprintName = "RoutingHTTPServer OS X"
             ReferencedContainer = "container:RoutingHTTPServer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -81,7 +81,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6EC750FE19C40645009F0E00"
             BuildableName = "RoutingHTTPServer.framework"
-            BlueprintName = "RoutingHTTPServer"
+            BlueprintName = "RoutingHTTPServer OS X"
             ReferencedContainer = "container:RoutingHTTPServer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
